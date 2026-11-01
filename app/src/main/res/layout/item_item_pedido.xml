@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/textViewItemProdutoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface" /> <TextView
+    android:id="@+id/textViewItemProdutoCodigo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Código: ABC-123"
+    android:textSize="14sp"
+    android:textColor="?attr/colorOnSurfaceVariant" android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/textViewItemQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade: 10"
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface" android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textViewItemPrecoUnitario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço Unitário: R$ 9.99"
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface" android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/textViewItemSubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtotal: R$ 99.90"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorTertiary" android:layout_marginTop="4dp" />
+
+</LinearLayout>

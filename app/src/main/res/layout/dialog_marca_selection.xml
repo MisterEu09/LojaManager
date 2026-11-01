@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/buttonAddNewMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Nova Marca"
+            android:layout_marginEnd="8dp"
+            style="?attr/materialButtonStyle" /> <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Selecionar Marca"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:textColor="?attr/colorOnSurface" /> </LinearLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewMarcas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Buscar marca..."
+        app:queryHint="Buscar marca..."
+        android:background="@drawable/rounded_border"
+        app:queryBackground="@android:color/transparent"
+        android:layout_marginBottom="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMarcaList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/buttonClearMarca"
+            style="?attr/materialButtonOutlinedStyle" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar Marca"
+            android:layout_marginEnd="8dp"
+            android:textColor="?attr/colorPrimary"
+            app:strokeColor="?attr/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMarcaBack"
+            style="?attr/materialButtonOutlinedStyle" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:textColor="?attr/colorPrimary"
+            app:strokeColor="?attr/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

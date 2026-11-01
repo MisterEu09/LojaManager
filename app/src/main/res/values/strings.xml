@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">LojaManager</string>
+
+    <string-array name="situacao_pedido_array">
+        <item>Pendente</item>
+        <item>Pedido</item>
+        <item>Entregue</item>
+        <item>Pago</item>
+        <item>Troca</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="theme_names_array">
+        <item>Padrão</item>
+        <item>Sério</item>
+        <item>Vibrante</item>
+        <item>Pastel</item>
+    </string-array>
+
+    <string-array name="period_options">
+        <item>Diário</item>
+        <item>Semanal</item>
+        <item>Mensal</item>
+    </string-array>
+        <string-array name="data_types_array">
+            <item>Clientes</item>
+            <item>Produtos</item>
+            <item>Pedidos</item>
+            <item>Materiais</item>
+        </string-array>
+
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+
+
+    <string-array name="analysis_period_options">
+        <item>Últimos 7 Dias</item>
+        <item>Últimos 30 Dias</item>
+        <item>Últimos 2 Meses</item>
+        <item>Este Mês</item>
+        <item>Este Ano</item>
+        <item>Todo o Período</item>
+    </string-array>
+
+    <string-array name="roles_array">
+        <item>vendedor</item>
+        <item>gerente</item>
+        <item>admin</item>
+    </string-array>
+
+</resources>

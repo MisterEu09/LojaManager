@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view_client_details"
+        android:title="Detalhes do Cliente" />
+    <item
+        android:id="@+id/action_check_delivery_date"
+        android:title="Ver Data de Entrega" />
+    <item
+        android:id="@+id/action_edit_pedido"
+        android:title="Editar Pedido" />
+    <item
+        android:id="@+id/action_delete_pedido"
+        android:title="Deletar Pedido" />
+</menu>

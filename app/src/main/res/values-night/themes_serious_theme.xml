@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LojaManager.Serious" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/serious_primary</item>
+        <item name="colorOnPrimary">@color/serious_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/serious_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/serious_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/serious_secondary</item>
+        <item name="colorOnSecondary">@color/serious_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/serious_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/serious_onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/serious_tertiary</item>
+        <item name="colorOnTertiary">@color/serious_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/serious_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/serious_onTertiaryContainer</item>
+
+        <item name="colorError">@color/serious_error</item>
+        <item name="colorOnError">@color/serious_onError</item>
+        <item name="colorErrorContainer">@color/serious_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/serious_onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/serious_background</item>
+        <item name="colorOnBackground">@color/serious_onBackground</item>
+        <item name="colorSurface">@color/serious_surface</item>
+        <item name="colorOnSurface">@color/serious_onSurface</item>
+        <item name="colorSurfaceVariant">@color/serious_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/serious_onSurfaceVariant</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

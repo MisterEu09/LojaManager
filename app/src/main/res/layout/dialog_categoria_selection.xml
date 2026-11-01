@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="?attr/colorSurface">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center_vertical"
+android:layout_marginBottom="16dp">
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/buttonAddNewCategory"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="+ Nova Categoria"
+android:layout_marginEnd="8dp"
+style="@style/Widget.MaterialComponents.Button"
+android:textColor="?attr/colorOnPrimary"
+android:backgroundTint="?attr/colorPrimary"
+app:cornerRadius="8dp" />
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Selecionar Categoria"
+android:textSize="18sp"
+android:textStyle="bold"
+android:gravity="end"
+android:textColor="?attr/colorOnSurface" />
+
+</LinearLayout>
+
+<androidx.appcompat.widget.SearchView
+android:id="@+id/searchViewCategories"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:iconifiedByDefault="false"
+android:queryHint="Buscar categoria..."
+app:queryHint="Buscar categoria..."
+android:layout_marginBottom="12dp"
+app:queryBackground="@android:color/transparent"
+app:closeIcon="@drawable/ic_close"
+app:searchIcon="@drawable/ic_search"
+app:defaultQueryHint="Buscar categoria..."
+android:background="@drawable/rounded_border" />
+
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/recyclerViewCategoryList"
+android:layout_width="match_parent"
+android:layout_height="300dp"
+android:layout_marginBottom="16dp"
+android:scrollbars="vertical" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="end">
+
+<Button
+android:id="@+id/buttonClearCategory"
+style="?attr/buttonBarButtonStyle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Limpar Categoria"
+android:layout_marginEnd="8dp"
+android:textColor="?attr/colorPrimary"/>
+
+<Button
+android:id="@+id/buttonCategoryBack"
+style="?attr/buttonBarButtonStyle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Voltar"
+android:textColor="?attr/colorPrimary" />
+
+</LinearLayout>
+
+</LinearLayout>

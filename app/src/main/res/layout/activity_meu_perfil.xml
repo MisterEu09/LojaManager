@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MeuPerfilActivity">
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meu Perfil"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="?attr/colorOnBackground"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewProfilePicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_width="2dp"
+        app:civ_border_color="?attr/colorPrimary"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- <Button
+        android:id="@+id/buttonChangeProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar Foto"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@android:color/white"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"/>-->
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: Carregando..."
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail: Carregando..."
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewUserRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo: Carregando..."
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurações de Tema"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorOnBackground"/>
+
+        <Spinner
+            android:id="@+id/spinnerThemeSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/buttonApplyTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplicar Tema"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="18sp"/>
+
+
+</LinearLayout>

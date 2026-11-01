@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775803934502",
+    "project_id": "lojamanagerapp",
+    "storage_bucket": "lojamanagerapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775803934502:android:2cc10e6ff71481656113e7",
+        "android_client_info": {
+          "package_name": "com.example.lojamamager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhPsGSgOzZmkpJprNI98eWg6M0y_X3m6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

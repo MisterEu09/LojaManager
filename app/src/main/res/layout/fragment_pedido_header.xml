@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PedidoHeaderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente (Obrigatório):"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewSelectedClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border" android:padding="12dp"
+            android:text="Selecionar Cliente"
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurface"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            app:drawableTint="?attr/colorOnSurfaceVariant" android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status da Nota (Obrigatório):"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerStatusNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:backgroundTint="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data de Emissão (Obrigatório):"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewDataEmissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border" android:padding="12dp"
+            android:text="Selecione a Data"
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurface"
+            android:drawableEnd="@drawable/ic_event"
+            app:drawableTint="?attr/colorOnSurfaceVariant" android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previsão de Entrega (Opcional):"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewDataEntregaPrevista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border" android:padding="12dp"
+            android:text="Selecione ou Calcule"
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurface"
+            android:drawableEnd="@drawable/ic_event"
+            app:drawableTint="?attr/colorOnSurfaceVariant" android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonCalcularEntrega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular Dias Úteis"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            style="?attr/materialButtonOutlinedStyle" android:textColor="?attr/colorPrimary"
+            app:strokeColor="?attr/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Condição de Pagamento (Obrigatório):"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCondicaoPagamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:backgroundTint="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

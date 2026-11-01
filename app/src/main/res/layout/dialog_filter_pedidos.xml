@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?attr/colorSurface"> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Filtrar Pedidos por:"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="?attr/colorOnSurface"
+    android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliente:"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+
+    <TextView
+        android:id="@+id/textViewFilterClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border"
+        android:padding="12dp"
+        android:text="Selecionar Cliente"
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnSurface"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Situação:"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+
+    <Spinner
+        android:id="@+id/spinnerFilterStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="?attr/colorSurfaceVariant" /> <Button
+        android:id="@+id/buttonClearFiltersPedidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar Todos os Filtros"
+        android:layout_gravity="end"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textColor="?attr/colorPrimary" />
+
+</LinearLayout>

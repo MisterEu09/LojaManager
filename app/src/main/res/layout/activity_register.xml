@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".RegisterActivity"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Crie sua Conta e Empresa"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu Nome Completo"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/colorSurfaceVariant" android:textColor="?attr/colorOnSurfaceVariant" android:textColorHint="?attr/colorOnSurfaceVariant" />
+
+    <EditText
+        android:id="@+id/editTextEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/colorSurfaceVariant" android:textColor="?attr/colorOnSurfaceVariant" android:textColorHint="?attr/colorOnSurfaceVariant" />
+
+    <EditText
+        android:id="@+id/editTextPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha (mínimo 6 caracteres)"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/colorSurfaceVariant" android:textColor="?attr/colorOnSurfaceVariant" android:textColorHint="?attr/colorOnSurfaceVariant" />
+
+    <EditText
+        android:id="@+id/editTextEmpresaNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Sua Empresa"
+        android:inputType="textCapWords"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="?attr/colorSurfaceVariant" android:textColor="?attr/colorOnSurfaceVariant" android:textColorHint="?attr/colorOnSurfaceVariant" />
+
+    <Button
+        android:id="@+id/buttonRegisterNewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Conta e Empresa"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já tem uma conta? Voltar para o Login"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>

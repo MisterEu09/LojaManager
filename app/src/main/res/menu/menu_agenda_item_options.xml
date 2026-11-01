@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view_order"
+        android:title="Ver Detalhes do Pedido" /> <item
+    android:id="@+id/action_copy_address"
+    android:title="Copiar Endereço" />
+</menu>

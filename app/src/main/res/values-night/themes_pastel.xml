@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.LojaManager.Pastel" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pastel_primary</item>
+        <item name="colorOnPrimary">@color/pastel_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pastel_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pastel_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/pastel_secondary</item>
+        <item name="colorOnSecondary">@color/pastel_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pastel_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pastel_onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/pastel_tertiary</item>
+        <item name="colorOnTertiary">@color/pastel_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/pastel_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/pastel_onTertiaryContainer</item>
+
+        <item name="colorError">@color/pastel_error</item>
+        <item name="colorOnError">@color/pastel_onError</item>
+        <item name="colorErrorContainer">@color/pastel_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/pastel_onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/pastel_background</item>
+        <item name="colorOnBackground">@color/pastel_onBackground</item>
+        <item name="colorSurface">@color/pastel_surface</item>
+        <item name="colorOnSurface">@color/pastel_onSurface</item>
+        <item name="colorSurfaceVariant">@color/pastel_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/pastel_onSurfaceVariant</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+</resources>

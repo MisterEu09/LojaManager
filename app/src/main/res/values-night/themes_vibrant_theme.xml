@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LojaManager.Vibrant" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vibrant_primary</item>
+        <item name="colorOnPrimary">@color/vibrant_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/vibrant_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/vibrant_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/vibrant_secondary</item>
+        <item name="colorOnSecondary">@color/vibrant_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/vibrant_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/vibrant_onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/vibrant_tertiary</item>
+        <item name="colorOnTertiary">@color/vibrant_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/vibrant_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/vibrant_onTertiaryContainer</item>
+
+        <item name="colorError">@color/vibrant_error</item>
+        <item name="colorOnError">@color/vibrant_onError</item>
+        <item name="colorErrorContainer">@color/vibrant_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/vibrant_onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/vibrant_background</item>
+        <item name="colorOnBackground">@color/vibrant_onBackground</item>
+        <item name="colorSurface">@color/vibrant_surface</item>
+        <item name="colorOnSurface">@color/vibrant_onSurface</item>
+        <item name="colorSurfaceVariant">@color/vibrant_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/vibrant_onSurfaceVariant</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

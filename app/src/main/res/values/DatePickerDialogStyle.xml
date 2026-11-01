@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="DatePickerDialogStyle" parent="Theme.MaterialComponents.Light.Dialog">
+    <item name="colorPrimary">?attr/colorPrimary</item>
+    <item name="colorOnPrimary">?attr/colorOnPrimary</item>
+
+    <item name="colorSurface">?attr/colorSurface</item>
+    <item name="colorOnSurface">?attr/colorOnSurface</item>
+
+    <item name="colorAccent">?attr/colorSecondary</item>
+    <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+    <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+
+    <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+
+
+    <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+    <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+</style>
+
+<style name="DatePickerDaySelectedStyle" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
+    <item name="android:backgroundTint">?attr/colorSecondary</item>
+    <item name="android:textColor">?attr/colorOnSecondary</item>
+</style>
+</resources>

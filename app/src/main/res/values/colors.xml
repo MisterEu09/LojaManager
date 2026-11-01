@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#7B68EE</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#E0CCFF</color>
+    <color name="md_theme_onPrimaryContainer">#22005D</color>
+
+    <color name="md_theme_secondary">#FFA600</color> <color name="md_theme_onSecondary">#212121</color> <color name="md_theme_secondaryContainer">#FFDE91</color>
+    <color name="md_theme_onSecondaryContainer">#2C1900</color>
+
+    <color name="md_theme_tertiary">#66BB6A</color> <color name="md_theme_onTertiary">#212121</color> <color name="md_theme_tertiaryContainer">#C8E6C9</color>
+    <color name="md_theme_onTertiaryContainer">#002107</color>
+
+    <color name="md_theme_background">#F8F8FF</color>
+    <color name="md_theme_onBackground">#1C1B1F</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#1C1B1F</color>
+    <color name="md_theme_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_onSurfaceVariant">#49454E</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecondary">#666666</color>
+    <color name="colorEntregaAtrasada">#FF4081</color>
+    <color name="colorEntregaPaga">#4CAF50</color>
+    <color name="colorEntregaPendente">#FFC107</color>
+    <color name="colorEntregaSucesso">#00C853</color>
+    <color name="colorEntregaFalha">#D32F2F</color>
+
+    <color name="md_theme_orange">#FF9800</color>
+    <color name="md_theme_error">#B00020</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#F8D7DA</color>
+    <color name="md_theme_onErrorContainer">#2C0001</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+</resources>

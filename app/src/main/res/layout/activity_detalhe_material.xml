@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageViewBackMaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Voltar"
+        app:tint="?attr/colorOnBackground"
+        app:layout_constraintTop_toTopOf="@id/textTitle"
+        app:layout_constraintBottom_toBottomOf="@id/textTitle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Material"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageViewBackMaterial"
+        app:layout_constraintEnd_toStartOf="@id/imageViewDeleteMaterial" />
+
+    <ImageView
+        android:id="@+id/imageViewDeleteMaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Excluir Material"
+        app:tint="#D32F2F"
+        app:layout_constraintTop_toTopOf="@id/textTitle"
+        app:layout_constraintBottom_toBottomOf="@id/textTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/editTextNomeMaterial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Material (Ex: Fita de Cetim)"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/textTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextCustoMaterial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Preço de Custo do Rolo/Pote (R$)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextNomeMaterial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEstoqueMaterial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade em Estoque"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextCustoMaterial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUnidadeMaterial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Unidade de Medida (Ex: Metros, Un, Kg)"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextEstoqueMaterial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnSalvarMaterial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Salvar Material"
+        android:minHeight="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextUnidadeMaterial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vibrant_primary">#FF9800</color> <color name="vibrant_onPrimary">#FFFFFF</color>
+    <color name="vibrant_primaryContainer">#FFE0B2</color>
+    <color name="vibrant_onPrimaryContainer">#E65100</color>
+
+    <color name="vibrant_secondary">#B1DC39</color> <color name="vibrant_onSecondary">#000000</color>
+    <color name="vibrant_secondaryContainer">#F0F4C3</color>
+    <color name="vibrant_onSecondaryContainer">#827717</color>
+
+    <color name="vibrant_tertiary">#FFC107</color> <color name="vibrant_onTertiary">#000000</color>
+    <color name="vibrant_tertiaryContainer">#FFECB3</color>
+    <color name="vibrant_onTertiaryContauhiner">#FF8F00</color>
+
+    <color name="vibrant_background">#FFFDE7</color>
+    <color name="vibrant_onBackground">#212121</color>
+    <color name="vibrant_surface">#FFFFFF</color>
+    <color name="vibrant_onSurface">#212121</color>
+    <color name="vibrant_surfaceVariant">#F9FBE7</color>
+    <color name="vibrant_onSurfaceVariant">#565656</color>
+
+    <color name="vibrant_error">#D32F2F</color>
+    <color name="vibrant_onError">#FFFFFF</color>
+    <color name="vibrant_errorContainer">#FFCDD2</color>
+    <color name="vibrant_onErrorContainer">#B71C1C</color>
+</resources>

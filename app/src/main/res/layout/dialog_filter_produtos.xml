@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/colorSurface"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Filtrar por Categoria"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="?attr/colorOnSurface" />
+
+    <TextView
+        android:id="@+id/textViewFilterCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_rounded_corners"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:hint="Selecionar Categoria"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:gravity="center_vertical"
+        android:textColor="?attr/colorOnSurface"
+        android:textColorHint="?attr/colorOnSurfaceVariant"
+        app:drawableTint="?attr/colorOnSurfaceVariant" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtrar por Marca"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="?attr/colorOnSurface" />
+
+    <TextView
+        android:id="@+id/textViewFilterMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_rounded_corners"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:hint="Selecionar Marca"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:gravity="center_vertical"
+        android:textColor="?attr/colorOnSurface"
+        android:textColorHint="?attr/colorOnSurfaceVariant"
+        app:drawableTint="?attr/colorOnSurfaceVariant" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtrar por Fornecedor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="?attr/colorOnSurface" />
+
+    <TextView
+        android:id="@+id/textViewFilterFornecedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_rounded_corners"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:hint="Selecionar Fornecedor"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:gravity="center_vertical"
+        android:textColor="?attr/colorOnSurface"
+        android:textColorHint="?attr/colorOnSurfaceVariant"
+        app:drawableTint="?attr/colorOnSurfaceVariant" />
+
+    <Button
+        android:id="@+id/buttonClearAllFilters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar Todos os Filtros"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="?attr/colorPrimary" />
+
+</LinearLayout>

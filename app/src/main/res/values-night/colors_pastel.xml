@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pastel_primary">#C9BFFF</color>
+    <color name="pastel_onPrimary">#301680</color>
+    <color name="pastel_primaryContainer">#483197</color>
+    <color name="pastel_onPrimaryContainer">#E6E1FF</color>
+
+    <color name="pastel_secondary">#FFE094</color>
+    <color name="pastel_onSecondary">#4A3200</color>
+    <color name="pastel_secondaryContainer">#6A4900</color>
+    <color name="pastel_onSecondaryContainer">#FFEEC9</color>
+
+    <color name="pastel_tertiary">#A1E3FF</color>
+    <color name="pastel_onTertiary">#00354D</color>
+    <color name="pastel_tertiaryContainer">#004D6E</color>
+    <color name="pastel_onTertiaryContainer">#E0F7FA</color>
+
+    <color name="pastel_background">#14121A</color>
+    <color name="pastel_onBackground">#E6E1E9</color>
+    <color name="pastel_surface">#1C1A22</color>
+    <color name="pastel_onSurface">#E6E1E9</color>
+    <color name="pastel_surfaceVariant">#4A4557</color>
+    <color name="pastel_onSurfaceVariant">#CDC4DC</color>
+
+    <color name="pastel_error">#FFB2BC</color>
+    <color name="pastel_onError">#5F001A</color>
+    <color name="pastel_errorContainer">#89002B</color>
+    <color name="pastel_onErrorContainer">#FFE4E7</color>
+</resources>
